@@ -1,0 +1,36 @@
+1705909918579	geckodriver	INFO	Listening on 127.0.0.1:62873
+1705909918587	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/Use ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/bl/kx28nz1j283g5gfgjqqgjbl00000gn/T/rust_mozprofileshpAJg"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1705909918843	Marionette	INFO	Marionette enabled
+2024-01-22 14:51:58.994 plugin-container[16988:6674684] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2024-01-22 14:51:58.994 plugin-container[16988:6674684] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2024-01-22 14:51:58.997 plugin-container[16988:6674684] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2024-01-22 14:51:58.997 plugin-container[16988:6674684] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2024-01-22 14:51:58.997 plugin-container[16988:6674702] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2024-01-22 14:51:58.997 plugin-container[16988:6674702] nil host used in call to allowsAnyHTTPSCertificateForHost:
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1705909919032	Marionette	INFO	Listening on port 62884
+WebDriver BiDi listening on ws://127.0.0.1:62874
+Read port: 62884
+1705909919207	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+DevTools listening on ws://127.0.0.1:62874/devtools/browser/32e8802a-7dd1-4852-9cd6-cb501551065c
+2024-01-22 07:52:00.161 plugin-container[16995:6674916] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2024-01-22 07:52:00.161 plugin-container[16995:6674916] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2024-01-22 07:52:00.163 plugin-container[16995:6674916] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2024-01-22 07:52:00.163 plugin-container[16995:6674916] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2024-01-22 07:52:00.163 plugin-container[16995:6674919] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2024-01-22 07:52:00.163 plugin-container[16995:6674919] nil host used in call to allowsAnyHTTPSCertificateForHost:
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://app.futureskill.co."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://app.futureskill.co."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://app.futureskill.co."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://app.futureskill.co."
+JavaScript error: resource:///modules/sessionstore/SessionStore.sys.mjs, line 3784: TypeError: this._windows[aWindow.__SSi] is undefined
+JavaScript warning: https://app.futureskill.co/cdn-cgi/scripts/7d0fa10a/cloudflare-static/rocket-loader.min.js, line 1: Script terminated by timeout at:
+c@https://app.futureskill.co/cdn-cgi/scripts/7d0fa10a/cloudflare-static/rocket-loader.min.js:1:9349
+
+1705909949876	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+1705910570298	Marionette	INFO	Stopped listening on port 62884
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+console.error: "Failed to fetch https://spocs.getpocket.com/user:" "NetworkError when attempting to fetch resource."

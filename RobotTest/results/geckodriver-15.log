@@ -1,0 +1,34 @@
+1706512678858	geckodriver	INFO	Listening on 127.0.0.1:53287
+1706512679220	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/Use ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/bl/kx28nz1j283g5gfgjqqgjbl00000gn/T/rust_mozprofilegLLB1x"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1706512684895	Marionette	INFO	Marionette enabled
+2024-01-29 14:18:05.136 plugin-container[37939:7014162] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2024-01-29 14:18:05.136 plugin-container[37939:7014162] nil host used in call to allowsAnyHTTPSCertificateForHost:
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1706512685159	Marionette	INFO	Listening on port 53329
+WebDriver BiDi listening on ws://127.0.0.1:53288
+Read port: 53329
+2024-01-29 14:18:05.300 plugin-container[37939:7014162] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2024-01-29 14:18:05.300 plugin-container[37939:7014162] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2024-01-29 14:18:05.301 plugin-container[37939:7014172] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2024-01-29 14:18:05.301 plugin-container[37939:7014172] nil host used in call to allowsAnyHTTPSCertificateForHost:
+1706512685335	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+DevTools listening on ws://127.0.0.1:53288/devtools/browser/9ae9a5b6-4941-4675-9217-72a899b6a792
+2024-01-29 07:18:06.540 plugin-container[37944:7014398] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2024-01-29 07:18:06.540 plugin-container[37944:7014398] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2024-01-29 07:18:06.544 plugin-container[37944:7014398] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2024-01-29 07:18:06.545 plugin-container[37944:7014398] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2024-01-29 07:18:06.545 plugin-container[37944:7014423] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2024-01-29 07:18:06.545 plugin-container[37944:7014423] nil host used in call to allowsAnyHTTPSCertificateForHost:
+JavaScript warning: https://automationexercise.com/static/js/jquery.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://automationexercise.com/static/js/jquery.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://pagead2.googlesyndication.com/bg/IHSjRKKj3q_1Pt3c2sGWHmUCy_Bw5n5yhKh9CWyZSw4.js line 2 > eval line 3705 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/IHSjRKKj3q_1Pt3c2sGWHmUCy_Bw5n5yhKh9CWyZSw4.js line 2 > eval line 6377 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: resource:///modules/sessionstore/SessionStore.sys.mjs, line 3784: TypeError: this._windows[aWindow.__SSi] is undefined
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1706512715784	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+1706512837099	Marionette	INFO	Stopped listening on port 53329
+console.error: "Failed to fetch https://spocs.getpocket.com/user:" "NetworkError when attempting to fetch resource."
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.

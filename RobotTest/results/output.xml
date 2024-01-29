@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.0 (Python 3.12.0 on darwin)" generated="2024-01-29T14:57:06.154388" rpa="false" schemaversion="5">
+<suite id="s1" name="RobotTest" source="/Users/10feb2002/Documents/227462/RobotTest">
+<suite id="s1-s1" name="TestCases" source="/Users/10feb2002/Documents/227462/RobotTest/TestCases">
+<suite id="s1-s1-s1" name="Testcase6" source="/Users/10feb2002/Documents/227462/RobotTest/TestCases/testcase6.robot">
+<kw name="Open Browser" owner="SeleniumLibrary" type="SETUP">
+<msg time="2024-01-29T14:57:06.257993" level="INFO">Opening browser 'firefox' to base url 'https://automationexercise.com/'.</msg>
+<arg>https://automationexercise.com/</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2024-01-29T14:57:06.257747" elapsed="5.365642"/>
+</kw>
+<test id="s1-s1-s1-t1" name="Contact Test" line="44">
+<kw name="Click Contact Element">
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2024-01-29T14:57:11.627228" level="INFO">Clicking element '//*[@id="header"]/div/div/div/div[2]/div/ul/li[8]/a'.</msg>
+<arg>//*[@id="header"]/div/div/div/div[2]/div/ul/li[8]/a</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2024-01-29T14:57:11.626558" elapsed="2.346426"/>
+</kw>
+<status status="PASS" start="2024-01-29T14:57:11.625933" elapsed="2.347236"/>
+</kw>
+<kw name="Input name">
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2024-01-29T14:57:13.973996" level="INFO">Typing text 'valuename' into text field '//*[@name="name"]'.</msg>
+<arg>//*[@name="name"]</arg>
+<arg>${name}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2024-01-29T14:57:13.973786" elapsed="0.043578"/>
+</kw>
+<arg>${name}</arg>
+<status status="PASS" start="2024-01-29T14:57:13.973414" elapsed="0.044108"/>
+</kw>
+<kw name="Input email">
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2024-01-29T14:57:14.018192" level="INFO">Typing text 'valueemail@gmail' into text field '//*[@name="email"]'.</msg>
+<arg>//*[@name="email"]</arg>
+<arg>${email}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2024-01-29T14:57:14.018003" elapsed="0.036677"/>
+</kw>
+<arg>${email}</arg>
+<status status="PASS" start="2024-01-29T14:57:14.017712" elapsed="0.037123"/>
+</kw>
+<kw name="Input subject">
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2024-01-29T14:57:14.055519" level="INFO">Typing text 'valuesubject' into text field '//*[@name="subject"]'.</msg>
+<arg>//*[@name="subject"]</arg>
+<arg>${subject}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2024-01-29T14:57:14.055325" elapsed="0.016200"/>
+</kw>
+<arg>${subject}</arg>
+<status status="PASS" start="2024-01-29T14:57:14.055017" elapsed="0.016659"/>
+</kw>
+<kw name="Input message">
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2024-01-29T14:57:14.072353" level="INFO">Typing text 'valuemessage' into text field '//*[@name="message"]'.</msg>
+<arg>//*[@name="message"]</arg>
+<arg>${message}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2024-01-29T14:57:14.072158" elapsed="0.017273"/>
+</kw>
+<arg>${message}</arg>
+<status status="PASS" start="2024-01-29T14:57:14.071859" elapsed="0.017723"/>
+</kw>
+<kw name="Upload file">
+<kw name="Choose File" owner="SeleniumLibrary">
+<msg time="2024-01-29T14:57:14.090264" level="INFO">Sending /Users/10feb2002/Documents/227462/RobotTest/TestCases/filetest.pdf to browser.</msg>
+<arg>${choosefile}</arg>
+<arg>${pdffile}</arg>
+<doc>Inputs the ``file_path`` into the file input field ``locator``.</doc>
+<status status="PASS" start="2024-01-29T14:57:14.090037" elapsed="0.056489"/>
+</kw>
+<status status="PASS" start="2024-01-29T14:57:14.089770" elapsed="0.057008"/>
+</kw>
+<kw name="Click submit">
+<kw name="Click Button" owner="SeleniumLibrary">
+<msg time="2024-01-29T14:57:14.147634" level="INFO">Clicking button '//*[@type="submit"]'.</msg>
+<msg time="2024-01-29T14:57:14.261815" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-32.png"&gt;&lt;img src="selenium-screenshot-32.png" width="800px"&gt;&lt;/a&gt;</msg>
+<msg time="2024-01-29T14:57:14.262105" level="FAIL">ElementClickInterceptedException: Message: Element &lt;input class="btn btn-primary pull-left submit_form" name="submit" type="submit"&gt; is not clickable at point (118,642) because another element &lt;div id="aswift_2_host"&gt; obscures it
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:191:5
+ElementClickInterceptedError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:335:5
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:176:11
+interaction.clickElement@chrome://remote/content/marionette/interaction.sys.mjs:135:11
+clickElement@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:204:29
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:84:31
+</msg>
+<arg>//*[@type="submit"]</arg>
+<doc>Clicks the button identified by ``locator``.</doc>
+<status status="FAIL" start="2024-01-29T14:57:14.147403" elapsed="0.116898">ElementClickInterceptedException: Message: Element &lt;input class="btn btn-primary pull-left submit_form" name="submit" type="submit"&gt; is not clickable at point (118,642) because another element &lt;div id="aswift_2_host"&gt; obscures it
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:191:5
+ElementClickInterceptedError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:335:5
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:176:11
+interaction.clickElement@chrome://remote/content/marionette/interaction.sys.mjs:135:11
+clickElement@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:204:29
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:84:31
+</status>
+</kw>
+<status status="FAIL" start="2024-01-29T14:57:14.146982" elapsed="0.117645">ElementClickInterceptedException: Message: Element &lt;input class="btn btn-primary pull-left submit_form" name="submit" type="submit"&gt; is not clickable at point (118,642) because another element &lt;div id="aswift_2_host"&gt; obscures it
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:191:5
+ElementClickInterceptedError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:335:5
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:176:11
+interaction.clickElement@chrome://remote/content/marionette/interaction.sys.mjs:135:11
+clickElement@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:204:29
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:84:31
+</status>
+</kw>
+<kw name="Handle Alert" owner="SeleniumLibrary">
+<arg>action=ACCEPT</arg>
+<doc>Handles the current alert and returns its message.</doc>
+<status status="NOT RUN" start="2024-01-29T14:57:14.264839" elapsed="0.000100"/>
+</kw>
+<kw name="Page Should Contain Element" owner="SeleniumLibrary">
+<arg>//*[@id="contact-page"]/div[2]/div[1]/div/div[2]</arg>
+<doc>Verifies that element ``locator`` is found on the current page.</doc>
+<status status="NOT RUN" start="2024-01-29T14:57:14.265051" elapsed="0.000058"/>
+</kw>
+<kw name="Click Home">
+<status status="NOT RUN" start="2024-01-29T14:57:14.265286" elapsed="0.000478"/>
+</kw>
+<status status="FAIL" start="2024-01-29T14:57:11.624321" elapsed="2.642088">ElementClickInterceptedException: Message: Element &lt;input class="btn btn-primary pull-left submit_form" name="submit" type="submit"&gt; is not clickable at point (118,642) because another element &lt;div id="aswift_2_host"&gt; obscures it
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:191:5
+ElementClickInterceptedError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:335:5
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:176:11
+interaction.clickElement@chrome://remote/content/marionette/interaction.sys.mjs:135:11
+clickElement@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:204:29
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:84:31
+</status>
+</test>
+<doc>Test Case 6</doc>
+<status status="FAIL" start="2024-01-29T14:57:06.186599" elapsed="8.081321"/>
+</suite>
+<status status="FAIL" start="2024-01-29T14:57:06.185499" elapsed="8.083043"/>
+</suite>
+<status status="FAIL" start="2024-01-29T14:57:06.173245" elapsed="8.095630"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="0" fail="1" skip="0" id="s1" name="RobotTest">RobotTest</stat>
+<stat pass="0" fail="1" skip="0" id="s1-s1" name="TestCases">RobotTest.TestCases</stat>
+<stat pass="0" fail="1" skip="0" id="s1-s1-s1" name="Testcase6">RobotTest.TestCases.Testcase6</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

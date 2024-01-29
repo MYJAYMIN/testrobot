@@ -1,0 +1,35 @@
+1706512764380	geckodriver	INFO	Listening on 127.0.0.1:60866
+1706512764388	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/Use ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/bl/kx28nz1j283g5gfgjqqgjbl00000gn/T/rust_mozprofileW4Qh1e"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1706512764700	Marionette	INFO	Marionette enabled
+2024-01-29 14:19:24.872 plugin-container[38139:7016643] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2024-01-29 14:19:24.872 plugin-container[38139:7016643] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2024-01-29 14:19:24.878 plugin-container[38139:7016643] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2024-01-29 14:19:24.878 plugin-container[38139:7016643] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2024-01-29 14:19:24.878 plugin-container[38139:7016654] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2024-01-29 14:19:24.878 plugin-container[38139:7016654] nil host used in call to allowsAnyHTTPSCertificateForHost:
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1706512764914	Marionette	INFO	Listening on port 60872
+WebDriver BiDi listening on ws://127.0.0.1:60867
+Read port: 60872
+1706512765126	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+2024-01-29 07:19:26.152 plugin-container[38150:7016883] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2024-01-29 07:19:26.152 plugin-container[38150:7016883] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2024-01-29 07:19:26.154 plugin-container[38150:7016883] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2024-01-29 07:19:26.154 plugin-container[38150:7016883] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2024-01-29 07:19:26.155 plugin-container[38150:7016887] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2024-01-29 07:19:26.155 plugin-container[38150:7016887] nil host used in call to allowsAnyHTTPSCertificateForHost:
+DevTools listening on ws://127.0.0.1:60867/devtools/browser/49bea572-eb56-45f3-81bf-aa1e683328c2
+JavaScript warning: https://automationexercise.com/static/js/jquery.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://automationexercise.com/static/js/jquery.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://automationexercise.com."
+JavaScript warning: https://pagead2.googlesyndication.com/bg/IHSjRKKj3q_1Pt3c2sGWHmUCy_Bw5n5yhKh9CWyZSw4.js line 2 > eval line 734 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/IHSjRKKj3q_1Pt3c2sGWHmUCy_Bw5n5yhKh9CWyZSw4.js line 2 > eval line 2974 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: resource:///modules/sessionstore/SessionStore.sys.mjs, line 3784: TypeError: this._windows[aWindow.__SSi] is undefined
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1706512794820	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+1706512839094	Marionette	INFO	Stopped listening on port 60872
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+console.error: "Failed to fetch https://spocs.getpocket.com/user:" "NetworkError when attempting to fetch resource."

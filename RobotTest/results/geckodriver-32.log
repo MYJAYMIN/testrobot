@@ -1,0 +1,30 @@
+1706514743337	geckodriver	INFO	Listening on 127.0.0.1:51897
+1706514743345	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/Use ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/bl/kx28nz1j283g5gfgjqqgjbl00000gn/T/rust_mozprofilendVeD1"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1706514743575	Marionette	INFO	Marionette enabled
+2024-01-29 14:52:23.731 plugin-container[44777:7092858] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2024-01-29 14:52:23.731 plugin-container[44777:7092858] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2024-01-29 14:52:23.734 plugin-container[44777:7092858] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2024-01-29 14:52:23.734 plugin-container[44777:7092858] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2024-01-29 14:52:23.734 plugin-container[44777:7092860] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2024-01-29 14:52:23.734 plugin-container[44777:7092860] nil host used in call to allowsAnyHTTPSCertificateForHost:
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1706514743775	Marionette	INFO	Listening on port 51903
+WebDriver BiDi listening on ws://127.0.0.1:51898
+Read port: 51903
+1706514743945	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+DevTools listening on ws://127.0.0.1:51898/devtools/browser/0198785e-fbf6-4a57-915e-b06c83daf66e
+2024-01-29 07:52:24.912 plugin-container[44785:7093081] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2024-01-29 07:52:24.912 plugin-container[44785:7093081] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2024-01-29 07:52:24.915 plugin-container[44785:7093081] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2024-01-29 07:52:24.915 plugin-container[44785:7093081] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2024-01-29 07:52:24.915 plugin-container[44785:7093079] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2024-01-29 07:52:24.915 plugin-container[44785:7093079] nil host used in call to allowsAnyHTTPSCertificateForHost:
+JavaScript warning: https://automationexercise.com/static/js/jquery.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://automationexercise.com/static/js/jquery.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://pagead2.googlesyndication.com/bg/IHSjRKKj3q_1Pt3c2sGWHmUCy_Bw5n5yhKh9CWyZSw4.js line 2 > eval line 5084 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/IHSjRKKj3q_1Pt3c2sGWHmUCy_Bw5n5yhKh9CWyZSw4.js line 2 > eval line 7216 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1706514762519	Marionette	INFO	Stopped listening on port 51903
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
